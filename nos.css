@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;900&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 3.5vh;
+    background-color:red;
+    margin: 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top:0;
+    left: 0;
+    z-index: 6;
+}
+
+header h1
+{
+    position: relative;
+    top: 50%;
+    height: 80%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 380px;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+ margin-top: -26vh;
+}
+
+#rebond {
+    width: 130px;
+    height: 75%;
+    position: relative;
+    float: left;
+    margin-right: 110px;
+    transition: 1.5s;
+    margin-left: 90px;
+}
+
+#pump {
+    width: 130px;
+    height: 75%;
+    position: relative;
+   float: left;
+   transition: 1.5s;
+   margin-left: 100px;
+   
+    
+}
+
+
+section {
+    background-color: rgb(251, 251, 236);
+    height: 120vw;
+}
+
+footer {
+background-color:  midnightblue;
+width: 100vw;
+height: 10vw;
+}
+
+nav {
+    width: 100vw;
+    height: 250px;
+}
+
+ul {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    width: 33%;
+}
+
+#pump:hover {
+    transform: scale(1.08);
+}
+
+#rebond:hover {
+    transform: scale(1.08);
+}
+
+#chefcurry {
+
+width: 200px;
+}
